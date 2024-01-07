@@ -1,0 +1,301 @@
+
+body{
+    background-color: white;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: self-start;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    }
+    
+
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 100px;
+        position: relative;
+    }
+    .navbar ul li .button{
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 100px;        
+    }
+/*.nav-input{
+        display: flex;
+        position: relative;
+        gap: 30px;
+        width: 100px;
+        height: 5px;
+        padding-right: 20px;
+    }*/
+    
+
+.aeroplane-text{
+    display: flex;
+    position: relative;
+    gap: 30%;
+     
+}
+.booking{
+    width: 100px;
+    height: 20px;
+}
+.booking-button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #0E1035;
+    border-radius: 10px;
+}
+.parent-image{
+    position: relative;
+    /*top:0;
+    left:0;*/
+
+
+}
+.image-1{
+    position:relative;
+    top:0;
+    left:0;
+    right: 10px;
+    width: 65%;
+    height: 250px;
+    z-index: -1;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    
+    
+
+}
+
+.image-2{
+    position: absolute;
+    top: 3px;
+    left:3px;
+    width:100%;
+    height: 400px;
+    background: url(),  80% repeat;
+    transform: rotate3d(80degree);
+    z-index: 1;
+
+
+}
+
+.image-svg{
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height:300px;
+    background-repeat: repeat;
+    
+    
+}
+
+/*.logos{
+    display: flex;
+    flex-direction: row;
+}*/
+
+.safety{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+.service-container{
+    background-color: rgb(16, 16, 80);
+    align-items: center;
+}
+.service-container h3{
+    text-align: center;
+    color: white;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(16, 16, 80);
+    color: white;
+    gap: 20px;
+    width: 500px;
+    padding: 20px;
+    
+}
+
+.service-2{
+    display: flex;
+    gap: 100px;
+    font-size: small;
+}
+.seat{
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.safety-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: #0E1035;
+    padding: 30px;
+}
+.png{
+    width: 300px;
+    height: 200px;
+    gap: 60px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.safety-text{
+    display: flex;
+    gap: 50px;
+     
+}
+.logos-images{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.fleet{
+    display: flex;
+    gap: 30px;
+}
+.fleet-text{
+    width: 400px;
+    height: 150px;
+    background-color:rgba(255, 255, 255, 0.986);
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    }
+
+
+.fleet-image{
+     background: url();
+     position: relative;
+     top:0;
+    left:0;
+    flex-shrink: 0;
+
+
+}
+
+
+.fleet-image1{
+    position: relative;
+    background: url();
+    top:0;
+    left:0;
+    right: 10px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.fleet-image2{
+    position: absolute;
+    top: 15px;
+    left:10px;
+    right: 10px;
+    width: 300px;
+    
+    flex-shrink: 0;
+}
+
+.Ade{
+    display: flex;
+    background-color: rgb(43, 34, 34);
+}
+
+.group-items{
+    display: flex;
+    gap: 20px;
+
+}
+
+.first-man{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.first-container{
+    width: 700px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 60px;
+    border-color: black;
+}
+.second-container{
+    width: 700px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 60px;
+    border-color: black;
+    
+}
+/*
+.man{
+    display: flex;
+    gap: 3px;
+}
+.text{
+    position: relative;
+}*/
+
+
+.contact-us{
+        background-color: rgba(18, 11, 105, 0.952);
+        width: 900px;
+        height:150px;
+        color: white;
+          display: flex;
+          padding: 30px;
+          align-items:center;
+          border-radius:30px;
+          position: relative;
+          gap: 50px;
+
+}
+.contact-us1{
+    position: absolute;
+    background-image: url();
+    background-repeat: repeat;
+    width: 300px;
+    height: 100px;
+}
+
+.contacts{
+
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+
